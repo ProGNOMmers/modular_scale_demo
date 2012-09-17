@@ -1,0 +1,67 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import 'modular-scale';
+
+body {
+  font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+// Vertical Rhythm
+@import "compass/typography/vertical_rhythm";
+
+$base-font-size: 16px;
+$base-line-height: 24px;
+$round-to-nearest-half-line: true;
+
+@include establish-baseline;
+
+// Modular scale
+$base-size: $base-font-size;
+
+
+// Sizes definitions: helper
+@mixin scaled-font-size($scale) {
+  $size: ms($scale);
+  font-size: $size;
+  @include leader(0.5);
+  @include trailer(0.25);
+  @include adjust-font-size-to($size);
+}
+
+// Sizes definitions
+h1 {
+  @include scaled-font-size(1.5);
+}
+
+h2 {
+  @include scaled-font-size(1);
+}
+
+h3 {
+  @include scaled-font-size(0.5);
+}
+
+h4 {
+  @include scaled-font-size(0);
+}
+
+h5 {
+  @include scaled-font-size(-0.5);
+}
+
+h6 {
+  @include scaled-font-size(-1);
+}
+
+p {
+  @include leader(0.5);
+  @include trailer(0.5);
+}
