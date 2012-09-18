@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
@@ -67,14 +68,26 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 9, ../sass/screen.scss */
-body {
-  font-family: sans-serif;
+/* line 10, ../sass/screen.scss */
+a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+}
+/* line 6, ../../../../../../home/izietto/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_unstyled-link.scss */
+a:active, a:focus {
+  outline: none;
 }
 
-/* line 13, ../sass/screen.scss */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
+/* line 14, ../sass/screen.scss */
+mark {
+  background: transparent 0% 0% repeat scroll none;
+  color: inherit;
+}
+
+/* line 19, ../sass/screen.scss */
+u, ins {
+  text-decoration: none;
 }
 
 /* line 61, ../../../../../../home/izietto/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
@@ -88,62 +101,185 @@ html {
   line-height: 1.5em;
 }
 
-/* line 40, ../sass/screen.scss */
+/* line 56, ../sass/screen.scss */
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* line 62, ../sass/screen.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+/* line 66, ../sass/screen.scss */
 h1 {
   font-size: 33px;
-  margin-top: 0.75em;
-  margin-bottom: 0.375em;
   font-size: 2.0625em;
   line-height: 1.45455em;
+  margin-top: 0.75em;
+  margin-bottom: 0.375em;
 }
 
-/* line 44, ../sass/screen.scss */
+/* line 70, ../sass/screen.scss */
 h2 {
   font-size: 26px;
-  margin-top: 0.75em;
-  margin-bottom: 0.375em;
   font-size: 1.625em;
   line-height: 1.38462em;
+  margin-top: 0.75em;
+  margin-bottom: 0.375em;
 }
 
-/* line 48, ../sass/screen.scss */
+/* line 74, ../sass/screen.scss */
 h3 {
   font-size: 20px;
-  margin-top: 0.75em;
-  margin-bottom: 0.375em;
   font-size: 1.25em;
   line-height: 1.2em;
+  margin-top: 0.75em;
+  margin-bottom: 0.375em;
 }
 
-/* line 52, ../sass/screen.scss */
+/* line 78, ../sass/screen.scss */
 h4 {
   font-size: 16px;
-  margin-top: 0.75em;
-  margin-bottom: 0.375em;
   font-size: 1em;
   line-height: 1.5em;
-}
-
-/* line 56, ../sass/screen.scss */
-h5 {
-  font-size: 13px;
   margin-top: 0.75em;
   margin-bottom: 0.375em;
+}
+
+/* line 82, ../sass/screen.scss */
+h5 {
+  font-size: 13px;
+  font-size: 0.8125em;
+  line-height: 1.84615em;
+  margin-top: 0.75em;
+  margin-bottom: 0.375em;
+}
+
+/* line 86, ../sass/screen.scss */
+h6 {
+  font-size: 10px;
+  font-size: 0.625em;
+  line-height: 2.4em;
+  margin-top: 0.75em;
+  margin-bottom: 0.375em;
+}
+
+/* line 90, ../sass/screen.scss */
+p, ul, ol {
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+/* line 95, ../sass/screen.scss */
+ul, ol {
+  padding-left: 24px;
+}
+
+/* line 99, ../sass/screen.scss */
+ul {
+  list-style: disc;
+}
+
+/* line 103, ../sass/screen.scss */
+ol {
+  list-style-type: decimal;
+}
+
+/* line 108, ../sass/screen.scss */
+ul ul, ol ul {
+  list-style: circle;
+}
+
+/* line 115, ../sass/screen.scss */
+ul ul ul, ul ol ul, ol ul ul, ol ol ul {
+  list-style: square;
+}
+
+/* line 121, ../sass/screen.scss */
+address, i, em, dfn, cite, var {
+  font-style: italic;
+}
+
+/* line 126, ../sass/screen.scss */
+a:link, a:visited, a:hover, a:focus, a:active {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* line 133, ../sass/screen.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 137, ../sass/screen.scss */
+b, strong {
+  font-weight: bold;
+}
+
+/* line 141, ../sass/screen.scss */
+code, kbd, pre, samp {
+  font-family: monospace, sans-serif;
+}
+
+/* line 145, ../sass/screen.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* line 149, ../sass/screen.scss */
+mark {
+  color: black;
+  background: none repeat scroll 0 0 yellow;
+}
+
+/* line 154, ../sass/screen.scss */
+q {
+  quotes: "“" "”" "‘" "’";
+}
+/* line 156, ../sass/screen.scss */
+q:before {
+  content: open-quote;
+}
+/* line 159, ../sass/screen.scss */
+q:after {
+  content: close-quote;
+}
+
+/* line 164, ../sass/screen.scss */
+small {
+  font-size: 13px;
   font-size: 0.8125em;
   line-height: 1.84615em;
 }
 
-/* line 60, ../sass/screen.scss */
-h6 {
-  font-size: 10px;
-  margin-top: 0.75em;
-  margin-bottom: 0.375em;
-  font-size: 0.625em;
-  line-height: 2.4em;
+/* line 168, ../sass/screen.scss */
+u, ins {
+  text-decoration: underline;
 }
 
-/* line 64, ../sass/screen.scss */
-p {
-  margin-top: 0.75em;
-  margin-bottom: 0.75em;
+/* line 172, ../sass/screen.scss */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+}
+
+/* line 177, ../sass/screen.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 180, ../sass/screen.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 184, ../sass/screen.scss */
+blockquote {
+  font-style: italic;
+  margin: 24px;
 }
