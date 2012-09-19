@@ -17,13 +17,17 @@
 }
 
 // Sizes definitions: helper
-@mixin scaled-font-size($scale, $margins: true) {
-  $size: ms($scale);
-  font-size: $size;
-  @include adjust-font-size-to($size);
-  @if $margins {
-    @include ms-leader(0.5);
-    @include ms-trailer(-0.5);
+@mixin ms-sizes($scale, $leader: 0.5, $trailer: -0.5) {
+  @if $scale {
+    $size: ms($scale);
+    font-size: $size;
+    @include adjust-font-size-to($size);
+  }
+  @if $leader {
+    @include ms-leader($leader);
+  }
+  @if $trailer {
+    @include ms-trailer($trailer);
   }
 }
 

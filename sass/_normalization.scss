@@ -16,32 +16,31 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  @include scaled-font-size(1.5);
+  @include ms-sizes(1.5);
 }
 
 h2 {
-  @include scaled-font-size(1);
+  @include ms-sizes(1);
 }
 
 h3 {
-  @include scaled-font-size(0.5);
+  @include ms-sizes(0.5);
 }
 
 h4 {
-  @include scaled-font-size(0);
+  @include ms-sizes(0);
 }
 
 h5 {
-  @include scaled-font-size(-0.5);
+  @include ms-sizes(-0.5);
 }
 
 h6 {
-  @include scaled-font-size(-1);
+  @include ms-sizes(-1);
 }
 
 p, ul, ol {
-  @include ms-leader(0.5);
-  @include ms-trailer(0.5);
+  @include ms-sizes(false, 0.5, 0.5);
 }
 
 ul, ol {
@@ -114,7 +113,7 @@ q {
 }
 
 small {
-  @include scaled-font-size(-0.5, false);
+  @include ms-sizes(-0.5, false, false);
 }
 
 u, ins {
@@ -196,8 +195,7 @@ button[disabled], input[disabled] {
 
 fieldset {
   border: 1px solid #C0C0C0;
-  @include ms-leader(0.5);
-  @include ms-trailer(0.5);
+  @include ms-sizes(false, 0.5, 0.5);
   padding: $base-line-height;
 }
 
