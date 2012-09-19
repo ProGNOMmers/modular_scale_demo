@@ -1,21 +1,21 @@
 @import 'reset';
 @import 'modular-scale';
-@import 'config/sizes_and_proportions';
-@import 'config/vertical_rhythm';
+@import "compass/typography/vertical_rhythm";
+@import 'config/sizes_and_ratio';
 @import 'config/fonts';
 
 @mixin ms-leader($lines: 1) {
-  margin-top: ms($lines, $base-leader);
+  margin-top: ms($lines, $base-leader, $ms-scale);
 }
 
 @mixin ms-trailer($lines: 1) {
-  margin-bottom: ms($lines, $base-leader);
+  margin-bottom: ms($lines, $base-leader, $ms-scale);
 }
 
 // Sizes definitions: helper
 @mixin ms-sizes($scale, $leader: 0.5, $trailer: -0.5) {
   @if $scale {
-    $size: ms($scale);
+    $size: ms($scale, $base-size, $ms-scale);
     font-size: $size;
     @include adjust-font-size-to($size);
   }
