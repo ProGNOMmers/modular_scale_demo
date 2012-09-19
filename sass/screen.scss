@@ -185,3 +185,60 @@ blockquote {
   font-style: italic;
   margin: $base-line-height;
 }
+
+dd {
+  margin-left: $base-line-height;
+}
+
+
+table {
+  border-collapse: separate;
+  border-spacing: $base-line-height / 2;
+} 
+
+caption, th {
+  text-align: center;
+  font-weight: bold;
+}
+
+label {
+  cursor: pointer;
+}
+
+button, input {
+  line-height: normal;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  cursor: pointer;
+}
+
+button[disabled], input[disabled] {
+  cursor: default;
+}
+
+fieldset {
+  border: 1px solid #C0C0C0;
+  margin: ms(0);
+  padding: $base-line-height;
+}
+
+legend {
+  border: 0 none;
+  padding: 0 ms(0);
+}

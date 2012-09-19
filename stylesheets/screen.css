@@ -283,3 +283,71 @@ blockquote {
   font-style: italic;
   margin: 24px;
 }
+
+/* line 189, ../sass/screen.scss */
+dd {
+  margin-left: 24px;
+}
+
+/* line 194, ../sass/screen.scss */
+table {
+  border-collapse: separate;
+  border-spacing: 12px;
+}
+
+/* line 199, ../sass/screen.scss */
+caption, th {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* line 204, ../sass/screen.scss */
+label {
+  cursor: pointer;
+}
+
+/* line 208, ../sass/screen.scss */
+button, input {
+  line-height: normal;
+}
+
+/* line 212, ../sass/screen.scss */
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+/* line 218, ../sass/screen.scss */
+input[type="checkbox"], input[type="radio"] {
+  padding: 0;
+}
+
+/* line 222, ../sass/screen.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* line 227, ../sass/screen.scss */
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  cursor: pointer;
+}
+
+/* line 231, ../sass/screen.scss */
+button[disabled], input[disabled] {
+  cursor: default;
+}
+
+/* line 235, ../sass/screen.scss */
+fieldset {
+  border: 1px solid #C0C0C0;
+  margin: 16px;
+  padding: 24px;
+}
+
+/* line 241, ../sass/screen.scss */
+legend {
+  border: 0 none;
+  padding: 0 16px;
+}
