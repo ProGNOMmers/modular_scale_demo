@@ -68,7 +68,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 10, ../sass/screen.scss */
+/* line 6, ../sass/_reset.scss */
 a {
   color: inherit;
   text-decoration: inherit;
@@ -79,13 +79,13 @@ a:active, a:focus {
   outline: none;
 }
 
-/* line 14, ../sass/screen.scss */
+/* line 10, ../sass/_reset.scss */
 mark {
   background: transparent 0% 0% repeat scroll none;
   color: inherit;
 }
 
-/* line 19, ../sass/screen.scss */
+/* line 15, ../sass/_reset.scss */
 u, ins {
   text-decoration: none;
 }
@@ -101,7 +101,7 @@ html {
   line-height: 1.25em;
 }
 
-/* line 56, ../sass/screen.scss */
+/* line 2, ../sass/normalization.scss */
 body {
   font-family: Arial, sans-serif;
   font-size: 16px;
@@ -109,262 +109,262 @@ body {
   margin: 20px;
 }
 
-/* line 64, ../sass/screen.scss */
+/* line 10, ../sass/normalization.scss */
 [hidden] {
   display: none;
 }
 
-/* line 68, ../sass/screen.scss */
+/* line 14, ../sass/normalization.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
-/* line 72, ../sass/screen.scss */
+/* line 18, ../sass/normalization.scss */
 h1 {
   font-size: 33px;
   font-size: 2.0625em;
   line-height: 1.21212em;
-  margin-top: 0.625em;
-  margin-bottom: 0.3125em;
+  margin-top: 0.63601em;
+  margin-bottom: 0.39308em;
 }
 
-/* line 77, ../sass/screen.scss */
+/* line 22, ../sass/normalization.scss */
 h2 {
   font-size: 26px;
   font-size: 1.625em;
   line-height: 1.15385em;
-  margin-top: 0.625em;
-  margin-bottom: 0.3125em;
+  margin-top: 0.63601em;
+  margin-bottom: 0.39308em;
 }
 
-/* line 81, ../sass/screen.scss */
+/* line 26, ../sass/normalization.scss */
 h3 {
   font-size: 20px;
   font-size: 1.25em;
   line-height: 1.5em;
-  margin-top: 0.625em;
-  margin-bottom: 0.3125em;
+  margin-top: 0.63601em;
+  margin-bottom: 0.39308em;
 }
 
-/* line 85, ../sass/screen.scss */
+/* line 30, ../sass/normalization.scss */
 h4 {
   font-size: 16px;
   font-size: 1em;
   line-height: 1.25em;
-  margin-top: 0.625em;
-  margin-bottom: 0.3125em;
+  margin-top: 0.63601em;
+  margin-bottom: 0.39308em;
 }
 
-/* line 89, ../sass/screen.scss */
+/* line 34, ../sass/normalization.scss */
 h5 {
   font-size: 13px;
   font-size: 0.8125em;
   line-height: 1.53846em;
-  margin-top: 0.625em;
-  margin-bottom: 0.3125em;
+  margin-top: 0.63601em;
+  margin-bottom: 0.39308em;
 }
 
-/* line 93, ../sass/screen.scss */
+/* line 38, ../sass/normalization.scss */
 h6 {
   font-size: 10px;
   font-size: 0.625em;
   line-height: 2em;
-  margin-top: 0.625em;
-  margin-bottom: 0.3125em;
+  margin-top: 0.63601em;
+  margin-bottom: 0.39308em;
 }
 
-/* line 97, ../sass/screen.scss */
+/* line 42, ../sass/normalization.scss */
 p, ul, ol {
-  margin-top: 0.625em;
-  margin-bottom: 0.625em;
+  margin-top: 0.63601em;
+  margin-bottom: 0.63601em;
 }
 
-/* line 102, ../sass/screen.scss */
+/* line 47, ../sass/normalization.scss */
 ul, ol {
   padding-left: 20px;
 }
 
-/* line 106, ../sass/screen.scss */
+/* line 51, ../sass/normalization.scss */
 ul {
   list-style: disc;
 }
 
-/* line 110, ../sass/screen.scss */
+/* line 55, ../sass/normalization.scss */
 ol {
   list-style-type: decimal;
 }
 
-/* line 115, ../sass/screen.scss */
+/* line 60, ../sass/normalization.scss */
 ul ul, ol ul {
   list-style: circle;
 }
 
-/* line 122, ../sass/screen.scss */
+/* line 67, ../sass/normalization.scss */
 ul ul ul, ul ol ul, ol ul ul, ol ol ul {
   list-style: square;
 }
 
-/* line 128, ../sass/screen.scss */
+/* line 73, ../sass/normalization.scss */
 address, i, em, dfn, cite, var {
   font-style: italic;
 }
 
-/* line 133, ../sass/screen.scss */
+/* line 78, ../sass/normalization.scss */
 a:link, a:visited, a:hover, a:focus, a:active {
   color: blue;
   cursor: pointer;
   text-decoration: underline;
 }
 
-/* line 140, ../sass/screen.scss */
+/* line 85, ../sass/normalization.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 144, ../sass/screen.scss */
+/* line 89, ../sass/normalization.scss */
 b, strong {
   font-weight: bold;
 }
 
-/* line 148, ../sass/screen.scss */
+/* line 93, ../sass/normalization.scss */
 code, kbd, pre, samp {
   font-family: monospace, sans-serif;
 }
 
-/* line 152, ../sass/screen.scss */
+/* line 97, ../sass/normalization.scss */
 del {
   text-decoration: line-through;
 }
 
-/* line 156, ../sass/screen.scss */
+/* line 101, ../sass/normalization.scss */
 mark {
   color: black;
   background: none repeat scroll 0 0 yellow;
 }
 
-/* line 161, ../sass/screen.scss */
+/* line 106, ../sass/normalization.scss */
 q {
   quotes: "“" "”" "‘" "’";
 }
-/* line 163, ../sass/screen.scss */
+/* line 108, ../sass/normalization.scss */
 q:before {
   content: open-quote;
 }
-/* line 166, ../sass/screen.scss */
+/* line 111, ../sass/normalization.scss */
 q:after {
   content: close-quote;
 }
 
-/* line 171, ../sass/screen.scss */
+/* line 116, ../sass/normalization.scss */
 small {
   font-size: 13px;
   font-size: 0.8125em;
   line-height: 1.53846em;
 }
 
-/* line 175, ../sass/screen.scss */
+/* line 120, ../sass/normalization.scss */
 u, ins {
   text-decoration: underline;
 }
 
-/* line 179, ../sass/screen.scss */
+/* line 124, ../sass/normalization.scss */
 sub, sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
 }
 
-/* line 184, ../sass/screen.scss */
+/* line 130, ../sass/normalization.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 187, ../sass/screen.scss */
+/* line 134, ../sass/normalization.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 191, ../sass/screen.scss */
+/* line 138, ../sass/normalization.scss */
 blockquote {
   font-style: italic;
   margin: 20px;
 }
 
-/* line 196, ../sass/screen.scss */
+/* line 143, ../sass/normalization.scss */
 dd {
   margin-left: 20px;
 }
 
-/* line 200, ../sass/screen.scss */
+/* line 147, ../sass/normalization.scss */
 audio, canvas, video {
   display: inline-block;
 }
 
-/* line 204, ../sass/screen.scss */
+/* line 151, ../sass/normalization.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
 }
 
-/* line 209, ../sass/screen.scss */
+/* line 156, ../sass/normalization.scss */
 table {
   border-collapse: separate;
-  border-spacing: 10px;
+  border-spacing: 13px;
 }
 
-/* line 214, ../sass/screen.scss */
+/* line 161, ../sass/normalization.scss */
 caption, th {
   text-align: center;
   font-weight: bold;
 }
 
-/* line 219, ../sass/screen.scss */
+/* line 166, ../sass/normalization.scss */
 label {
   cursor: pointer;
 }
 
-/* line 223, ../sass/screen.scss */
+/* line 170, ../sass/normalization.scss */
 button, input {
   line-height: normal;
 }
 
-/* line 227, ../sass/screen.scss */
+/* line 174, ../sass/normalization.scss */
 button, input, select, textarea {
   font-family: inherit;
   font-size: 100%;
   margin: 0;
 }
 
-/* line 233, ../sass/screen.scss */
+/* line 180, ../sass/normalization.scss */
 input[type="checkbox"], input[type="radio"] {
   padding: 0;
 }
 
-/* line 237, ../sass/screen.scss */
+/* line 184, ../sass/normalization.scss */
 textarea {
   overflow: auto;
   vertical-align: top;
 }
 
-/* line 242, ../sass/screen.scss */
+/* line 189, ../sass/normalization.scss */
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   cursor: pointer;
 }
 
-/* line 246, ../sass/screen.scss */
+/* line 193, ../sass/normalization.scss */
 button[disabled], input[disabled] {
   cursor: default;
 }
 
-/* line 250, ../sass/screen.scss */
+/* line 197, ../sass/normalization.scss */
 fieldset {
   border: 1px solid #C0C0C0;
-  margin-top: 0.625em;
-  margin-bottom: 0.625em;
+  margin-top: 0.63601em;
+  margin-bottom: 0.63601em;
   padding: 20px;
 }
 
-/* line 257, ../sass/screen.scss */
+/* line 204, ../sass/normalization.scss */
 legend {
   border: 0 none;
   padding: 0 16px;

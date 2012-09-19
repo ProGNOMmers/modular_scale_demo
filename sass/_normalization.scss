@@ -1,0 +1,207 @@
+// Normalization definitions
+body {
+  font-family : $default-font-family;
+  font-size   : $base-font-size;
+  line-height : $base-line-height;
+  margin      : $base-line-height;
+}
+
+
+[hidden] {
+  display: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+h1 {
+  @include scaled-font-size(1.5);
+}
+
+h2 {
+  @include scaled-font-size(1);
+}
+
+h3 {
+  @include scaled-font-size(0.5);
+}
+
+h4 {
+  @include scaled-font-size(0);
+}
+
+h5 {
+  @include scaled-font-size(-0.5);
+}
+
+h6 {
+  @include scaled-font-size(-1);
+}
+
+p, ul, ol {
+  @include ms-leader(0.5);
+  @include ms-trailer(0.5);
+}
+
+ul, ol {
+  padding-left: $base-line-height;
+}
+
+ul {
+  list-style: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ul, ol {
+  ul {
+    list-style: circle;
+  }
+}
+
+ul, ol {
+  ul, ol {
+    ul {
+      list-style: square;
+    }
+  }
+}
+
+address, i, em, dfn, cite, var {
+  font-style: italic;
+}
+
+a {
+  &:link, &:visited, &:hover, &:focus, &:active {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+code, kbd, pre, samp {
+  font-family: $monospace-font-family;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+mark {
+  color: black;
+  background: none repeat scroll 0 0 yellow;
+}
+
+q {
+  quotes: "“" "”" "‘" "’";
+  &:before {
+    content: open-quote;
+  }
+  &:after {
+    content: close-quote;
+  }
+}
+
+small {
+  @include scaled-font-size(-0.5, false);
+}
+
+u, ins {
+  text-decoration: underline;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+blockquote {
+  font-style: italic;
+  margin: $base-line-height;
+}
+
+dd {
+  margin-left: $base-line-height;
+}
+
+audio, canvas, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: ms(-0.5);
+} 
+
+caption, th {
+  text-align: center;
+  font-weight: bold;
+}
+
+label {
+  cursor: pointer;
+}
+
+button, input {
+  line-height: normal;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  cursor: pointer;
+}
+
+button[disabled], input[disabled] {
+  cursor: default;
+}
+
+fieldset {
+  border: 1px solid #C0C0C0;
+  @include ms-leader(0.5);
+  @include ms-trailer(0.5);
+  padding: $base-line-height;
+}
+
+legend {
+  border: 0 none;
+  padding: 0 $base-font-size;
+}
