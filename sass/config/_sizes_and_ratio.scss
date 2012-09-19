@@ -1,7 +1,7 @@
 // Sizes and ratio
-// Don't override these variables!!!
-$base-size: 14px;
-$ms-scale: golden();
+// Don't overwrite these variables!!!
+$base-size: 16px;
+$ratio: golden();
 $base-font-size: $base-size;
 $base-line-height: ms(0.5);
 $round-to-nearest-half-line: true;

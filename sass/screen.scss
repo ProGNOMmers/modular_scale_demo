@@ -5,17 +5,17 @@
 @import 'config/fonts';
 
 @mixin ms-leader($lines: 1) {
-  margin-top: ms($lines, $base-leader, $ms-scale);
+  margin-top: ms($lines, $base-leader);
 }
 
 @mixin ms-trailer($lines: 1) {
-  margin-bottom: ms($lines, $base-leader, $ms-scale);
+  margin-bottom: ms($lines, $base-leader);
 }
 
 // Sizes definitions: helper
 @mixin ms-sizes($scale, $leader: 0.5, $trailer: -0.5) {
   @if $scale {
-    $size: ms($scale, $base-size, $ms-scale);
+    $size: ms($scale, $base-size);
     font-size: $size;
     @include adjust-font-size-to($size);
   }
@@ -28,3 +28,8 @@
 }
 
 @import 'normalization';
+
+
+// @debug ms(-2, 16px, golden());
+// @debug ms(-2, 16px, fourth());
+// @debug ms(-2, 16px, golden() fourth());
