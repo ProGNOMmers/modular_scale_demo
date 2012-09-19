@@ -1,8 +1,4 @@
 @charset "UTF-8";
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 17, ../../../../../../home/izietto/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -92,280 +88,280 @@ u, ins {
 
 /* line 61, ../../../../../../home/izietto/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 * html {
-  font-size: 100%;
+  font-size: 87.5%;
 }
 
 /* line 64, ../../../../../../home/izietto/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
-  font-size: 16px;
-  line-height: 1.25em;
+  font-size: 14px;
+  line-height: 1.28571em;
 }
 
 /* line 2, ../sass/_normalization.scss */
 body {
   font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 20px;
-  margin: 20px;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 18px;
 }
 
-/* line 10, ../sass/_normalization.scss */
+/* line 9, ../sass/_normalization.scss */
 [hidden] {
   display: none;
 }
 
-/* line 14, ../sass/_normalization.scss */
+/* line 13, ../sass/_normalization.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
-/* line 18, ../sass/_normalization.scss */
+/* line 17, ../sass/_normalization.scss */
 h1 {
-  font-size: 33px;
-  font-size: 2.0625em;
-  line-height: 1.21212em;
+  font-size: 29px;
+  font-size: 2.07143em;
+  line-height: 1.24138em;
   margin-top: 0.63601em;
   margin-bottom: 0.39308em;
 }
 
-/* line 22, ../sass/_normalization.scss */
+/* line 21, ../sass/_normalization.scss */
 h2 {
-  font-size: 26px;
-  font-size: 1.625em;
-  line-height: 1.15385em;
+  font-size: 23px;
+  font-size: 1.64286em;
+  line-height: 1.17391em;
   margin-top: 0.63601em;
   margin-bottom: 0.39308em;
 }
 
-/* line 26, ../sass/_normalization.scss */
+/* line 25, ../sass/_normalization.scss */
 h3 {
-  font-size: 20px;
-  font-size: 1.25em;
+  font-size: 18px;
+  font-size: 1.28571em;
   line-height: 1.5em;
   margin-top: 0.63601em;
   margin-bottom: 0.39308em;
 }
 
-/* line 30, ../sass/_normalization.scss */
+/* line 29, ../sass/_normalization.scss */
 h4 {
-  font-size: 16px;
+  font-size: 14px;
   font-size: 1em;
-  line-height: 1.25em;
+  line-height: 1.28571em;
   margin-top: 0.63601em;
   margin-bottom: 0.39308em;
 }
 
-/* line 34, ../sass/_normalization.scss */
+/* line 33, ../sass/_normalization.scss */
 h5 {
-  font-size: 13px;
-  font-size: 0.8125em;
-  line-height: 1.53846em;
+  font-size: 11px;
+  font-size: 0.78571em;
+  line-height: 1.63636em;
   margin-top: 0.63601em;
   margin-bottom: 0.39308em;
 }
 
-/* line 38, ../sass/_normalization.scss */
+/* line 37, ../sass/_normalization.scss */
 h6 {
-  font-size: 10px;
-  font-size: 0.625em;
+  font-size: 9px;
+  font-size: 0.64286em;
   line-height: 2em;
   margin-top: 0.63601em;
   margin-bottom: 0.39308em;
 }
 
-/* line 42, ../sass/_normalization.scss */
+/* line 41, ../sass/_normalization.scss */
 p, ul, ol {
   margin-top: 0.63601em;
   margin-bottom: 0.63601em;
 }
 
-/* line 46, ../sass/_normalization.scss */
+/* line 45, ../sass/_normalization.scss */
 ul, ol {
-  padding-left: 20px;
+  padding-left: 18px;
 }
 
-/* line 50, ../sass/_normalization.scss */
+/* line 49, ../sass/_normalization.scss */
 ul {
   list-style: disc;
 }
 
-/* line 54, ../sass/_normalization.scss */
+/* line 53, ../sass/_normalization.scss */
 ol {
   list-style-type: decimal;
 }
 
-/* line 59, ../sass/_normalization.scss */
+/* line 58, ../sass/_normalization.scss */
 ul ul, ol ul {
   list-style: circle;
 }
 
-/* line 66, ../sass/_normalization.scss */
+/* line 65, ../sass/_normalization.scss */
 ul ul ul, ul ol ul, ol ul ul, ol ol ul {
   list-style: square;
 }
 
-/* line 72, ../sass/_normalization.scss */
+/* line 71, ../sass/_normalization.scss */
 address, i, em, dfn, cite, var {
   font-style: italic;
 }
 
-/* line 77, ../sass/_normalization.scss */
+/* line 76, ../sass/_normalization.scss */
 a:link, a:visited, a:hover, a:focus, a:active {
   color: blue;
   cursor: pointer;
   text-decoration: underline;
 }
 
-/* line 84, ../sass/_normalization.scss */
+/* line 83, ../sass/_normalization.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 88, ../sass/_normalization.scss */
+/* line 87, ../sass/_normalization.scss */
 b, strong {
   font-weight: bold;
 }
 
-/* line 92, ../sass/_normalization.scss */
+/* line 91, ../sass/_normalization.scss */
 code, kbd, pre, samp {
   font-family: monospace, sans-serif;
 }
 
-/* line 96, ../sass/_normalization.scss */
+/* line 95, ../sass/_normalization.scss */
 del {
   text-decoration: line-through;
 }
 
-/* line 100, ../sass/_normalization.scss */
+/* line 99, ../sass/_normalization.scss */
 mark {
   color: black;
   background: none repeat scroll 0 0 yellow;
 }
 
-/* line 105, ../sass/_normalization.scss */
+/* line 104, ../sass/_normalization.scss */
 q {
   quotes: "“" "”" "‘" "’";
 }
-/* line 107, ../sass/_normalization.scss */
+/* line 106, ../sass/_normalization.scss */
 q:before {
   content: open-quote;
 }
-/* line 110, ../sass/_normalization.scss */
+/* line 109, ../sass/_normalization.scss */
 q:after {
   content: close-quote;
 }
 
-/* line 115, ../sass/_normalization.scss */
+/* line 114, ../sass/_normalization.scss */
 small {
-  font-size: 13px;
-  font-size: 0.8125em;
-  line-height: 1.53846em;
+  font-size: 11px;
+  font-size: 0.78571em;
+  line-height: 1.63636em;
 }
 
-/* line 119, ../sass/_normalization.scss */
+/* line 118, ../sass/_normalization.scss */
 u, ins {
   text-decoration: underline;
 }
 
-/* line 123, ../sass/_normalization.scss */
+/* line 122, ../sass/_normalization.scss */
 sub, sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
 }
 
-/* line 129, ../sass/_normalization.scss */
+/* line 128, ../sass/_normalization.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 133, ../sass/_normalization.scss */
+/* line 132, ../sass/_normalization.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 137, ../sass/_normalization.scss */
+/* line 136, ../sass/_normalization.scss */
 blockquote {
   font-style: italic;
-  margin: 20px;
+  margin: 18px;
 }
 
-/* line 142, ../sass/_normalization.scss */
+/* line 141, ../sass/_normalization.scss */
 dd {
-  margin-left: 20px;
+  margin-left: 18px;
 }
 
-/* line 146, ../sass/_normalization.scss */
+/* line 145, ../sass/_normalization.scss */
 audio, canvas, video {
   display: inline-block;
 }
 
-/* line 150, ../sass/_normalization.scss */
+/* line 149, ../sass/_normalization.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
 }
 
-/* line 155, ../sass/_normalization.scss */
+/* line 154, ../sass/_normalization.scss */
 table {
   border-collapse: separate;
-  border-spacing: 13px;
+  border-spacing: 11px;
 }
 
-/* line 160, ../sass/_normalization.scss */
+/* line 159, ../sass/_normalization.scss */
 caption, th {
   text-align: center;
   font-weight: bold;
 }
 
-/* line 165, ../sass/_normalization.scss */
+/* line 164, ../sass/_normalization.scss */
 label {
   cursor: pointer;
 }
 
-/* line 169, ../sass/_normalization.scss */
+/* line 168, ../sass/_normalization.scss */
 button, input {
   line-height: normal;
 }
 
-/* line 173, ../sass/_normalization.scss */
+/* line 172, ../sass/_normalization.scss */
 button, input, select, textarea {
   font-family: inherit;
   font-size: 100%;
   margin: 0;
 }
 
-/* line 179, ../sass/_normalization.scss */
+/* line 178, ../sass/_normalization.scss */
 input[type="checkbox"], input[type="radio"] {
   padding: 0;
 }
 
-/* line 183, ../sass/_normalization.scss */
+/* line 182, ../sass/_normalization.scss */
 textarea {
   overflow: auto;
   vertical-align: top;
 }
 
-/* line 188, ../sass/_normalization.scss */
+/* line 187, ../sass/_normalization.scss */
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   cursor: pointer;
 }
 
-/* line 192, ../sass/_normalization.scss */
+/* line 191, ../sass/_normalization.scss */
 button[disabled], input[disabled] {
   cursor: default;
 }
 
-/* line 196, ../sass/_normalization.scss */
+/* line 195, ../sass/_normalization.scss */
 fieldset {
   border: 1px solid #C0C0C0;
   margin-top: 0.63601em;
   margin-bottom: 0.63601em;
-  padding: 20px;
+  padding: 18px;
 }
 
-/* line 202, ../sass/_normalization.scss */
+/* line 201, ../sass/_normalization.scss */
 legend {
   border: 0 none;
-  padding: 0 16px;
+  padding: 0 14px;
 }
