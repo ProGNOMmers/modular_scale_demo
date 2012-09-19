@@ -98,255 +98,273 @@ u, ins {
 /* line 64, ../../../../../../home/izietto/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 16px;
-  line-height: 1.5em;
+  line-height: 1.25em;
 }
 
 /* line 56, ../sass/screen.scss */
 body {
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 20px;
+  margin: 20px;
 }
 
-/* line 62, ../sass/screen.scss */
+/* line 64, ../sass/screen.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 68, ../sass/screen.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
-/* line 66, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 h1 {
   font-size: 33px;
   font-size: 2.0625em;
-  line-height: 1.45455em;
-  margin-top: 0.75em;
-  margin-bottom: 0.375em;
+  line-height: 1.21212em;
+  margin-top: 0.625em;
+  margin-bottom: 0.3125em;
 }
 
-/* line 70, ../sass/screen.scss */
+/* line 77, ../sass/screen.scss */
 h2 {
   font-size: 26px;
   font-size: 1.625em;
-  line-height: 1.38462em;
-  margin-top: 0.75em;
-  margin-bottom: 0.375em;
+  line-height: 1.15385em;
+  margin-top: 0.625em;
+  margin-bottom: 0.3125em;
 }
 
-/* line 74, ../sass/screen.scss */
+/* line 81, ../sass/screen.scss */
 h3 {
   font-size: 20px;
   font-size: 1.25em;
-  line-height: 1.2em;
-  margin-top: 0.75em;
-  margin-bottom: 0.375em;
+  line-height: 1.5em;
+  margin-top: 0.625em;
+  margin-bottom: 0.3125em;
 }
 
-/* line 78, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 h4 {
   font-size: 16px;
   font-size: 1em;
-  line-height: 1.5em;
-  margin-top: 0.75em;
-  margin-bottom: 0.375em;
+  line-height: 1.25em;
+  margin-top: 0.625em;
+  margin-bottom: 0.3125em;
 }
 
-/* line 82, ../sass/screen.scss */
+/* line 89, ../sass/screen.scss */
 h5 {
   font-size: 13px;
   font-size: 0.8125em;
-  line-height: 1.84615em;
-  margin-top: 0.75em;
-  margin-bottom: 0.375em;
+  line-height: 1.53846em;
+  margin-top: 0.625em;
+  margin-bottom: 0.3125em;
 }
 
-/* line 86, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 h6 {
   font-size: 10px;
   font-size: 0.625em;
-  line-height: 2.4em;
-  margin-top: 0.75em;
-  margin-bottom: 0.375em;
+  line-height: 2em;
+  margin-top: 0.625em;
+  margin-bottom: 0.3125em;
 }
 
-/* line 90, ../sass/screen.scss */
+/* line 97, ../sass/screen.scss */
 p, ul, ol {
-  margin-top: 0.75em;
-  margin-bottom: 0.75em;
+  margin-top: 0.625em;
+  margin-bottom: 0.625em;
 }
 
-/* line 95, ../sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 ul, ol {
-  padding-left: 24px;
+  padding-left: 20px;
 }
 
-/* line 99, ../sass/screen.scss */
+/* line 106, ../sass/screen.scss */
 ul {
   list-style: disc;
 }
 
-/* line 103, ../sass/screen.scss */
+/* line 110, ../sass/screen.scss */
 ol {
   list-style-type: decimal;
 }
 
-/* line 108, ../sass/screen.scss */
+/* line 115, ../sass/screen.scss */
 ul ul, ol ul {
   list-style: circle;
 }
 
-/* line 115, ../sass/screen.scss */
+/* line 122, ../sass/screen.scss */
 ul ul ul, ul ol ul, ol ul ul, ol ol ul {
   list-style: square;
 }
 
-/* line 121, ../sass/screen.scss */
+/* line 128, ../sass/screen.scss */
 address, i, em, dfn, cite, var {
   font-style: italic;
 }
 
-/* line 126, ../sass/screen.scss */
+/* line 133, ../sass/screen.scss */
 a:link, a:visited, a:hover, a:focus, a:active {
   color: blue;
   cursor: pointer;
   text-decoration: underline;
 }
 
-/* line 133, ../sass/screen.scss */
+/* line 140, ../sass/screen.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 137, ../sass/screen.scss */
+/* line 144, ../sass/screen.scss */
 b, strong {
   font-weight: bold;
 }
 
-/* line 141, ../sass/screen.scss */
+/* line 148, ../sass/screen.scss */
 code, kbd, pre, samp {
   font-family: monospace, sans-serif;
 }
 
-/* line 145, ../sass/screen.scss */
+/* line 152, ../sass/screen.scss */
 del {
   text-decoration: line-through;
 }
 
-/* line 149, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 mark {
   color: black;
   background: none repeat scroll 0 0 yellow;
 }
 
-/* line 154, ../sass/screen.scss */
+/* line 161, ../sass/screen.scss */
 q {
   quotes: "“" "”" "‘" "’";
 }
-/* line 156, ../sass/screen.scss */
+/* line 163, ../sass/screen.scss */
 q:before {
   content: open-quote;
 }
-/* line 159, ../sass/screen.scss */
+/* line 166, ../sass/screen.scss */
 q:after {
   content: close-quote;
 }
 
-/* line 164, ../sass/screen.scss */
+/* line 171, ../sass/screen.scss */
 small {
   font-size: 13px;
   font-size: 0.8125em;
-  line-height: 1.84615em;
+  line-height: 1.53846em;
 }
 
-/* line 168, ../sass/screen.scss */
+/* line 175, ../sass/screen.scss */
 u, ins {
   text-decoration: underline;
 }
 
-/* line 172, ../sass/screen.scss */
+/* line 179, ../sass/screen.scss */
 sub, sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
 }
 
-/* line 177, ../sass/screen.scss */
+/* line 184, ../sass/screen.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 180, ../sass/screen.scss */
+/* line 187, ../sass/screen.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 184, ../sass/screen.scss */
+/* line 191, ../sass/screen.scss */
 blockquote {
   font-style: italic;
-  margin: 24px;
+  margin: 20px;
 }
 
-/* line 189, ../sass/screen.scss */
+/* line 196, ../sass/screen.scss */
 dd {
-  margin-left: 24px;
+  margin-left: 20px;
 }
 
-/* line 194, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
+audio, canvas, video {
+  display: inline-block;
+}
+
+/* line 204, ../sass/screen.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 209, ../sass/screen.scss */
 table {
   border-collapse: separate;
-  border-spacing: 12px;
+  border-spacing: 10px;
 }
 
-/* line 199, ../sass/screen.scss */
+/* line 214, ../sass/screen.scss */
 caption, th {
   text-align: center;
   font-weight: bold;
 }
 
-/* line 204, ../sass/screen.scss */
+/* line 219, ../sass/screen.scss */
 label {
   cursor: pointer;
 }
 
-/* line 208, ../sass/screen.scss */
+/* line 223, ../sass/screen.scss */
 button, input {
   line-height: normal;
 }
 
-/* line 212, ../sass/screen.scss */
+/* line 227, ../sass/screen.scss */
 button, input, select, textarea {
   font-family: inherit;
   font-size: 100%;
   margin: 0;
 }
 
-/* line 218, ../sass/screen.scss */
+/* line 233, ../sass/screen.scss */
 input[type="checkbox"], input[type="radio"] {
   padding: 0;
 }
 
-/* line 222, ../sass/screen.scss */
+/* line 237, ../sass/screen.scss */
 textarea {
   overflow: auto;
   vertical-align: top;
 }
 
-/* line 227, ../sass/screen.scss */
+/* line 242, ../sass/screen.scss */
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   cursor: pointer;
 }
 
-/* line 231, ../sass/screen.scss */
+/* line 246, ../sass/screen.scss */
 button[disabled], input[disabled] {
   cursor: default;
 }
 
-/* line 235, ../sass/screen.scss */
+/* line 250, ../sass/screen.scss */
 fieldset {
   border: 1px solid #C0C0C0;
-  margin: 16px;
-  padding: 24px;
+  margin-top: 0.625em;
+  margin-bottom: 0.625em;
+  padding: 20px;
 }
 
-/* line 241, ../sass/screen.scss */
+/* line 257, ../sass/screen.scss */
 legend {
   border: 0 none;
   padding: 0 16px;

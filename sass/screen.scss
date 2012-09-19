@@ -21,24 +21,24 @@ u, ins {
 }
 
 
+// Modular scale
+@import 'modular-scale';
+$base-size: 16px;
+
 
 // Vertical Rhythm
 @import "compass/typography/vertical_rhythm";
 
-$base-font-size: 16px;
-$base-line-height: 24px;
+$base-font-size: $base-size;
+$base-line-height: ms(0.5);
 $round-to-nearest-half-line: true;
 
 @include establish-baseline;
 
 
-// Modular scale
-@import 'modular-scale';
-$base-size: $base-font-size;
 
-
-// Various config variables
-$default-font-family: sans-serif;
+// Font config variables
+$default-font-family: Arial, sans-serif;
 $monospace-font-family: monospace, sans-serif;
 
 // Sizes definitions: helper
@@ -57,6 +57,11 @@ body {
   font-family: $default-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height;
+  margin: $base-line-height;
+}
+
+[hidden] {
+  display: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -65,6 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   @include scaled-font-size(1.5);
+  // margin-left: ms(1.5);
 }
 
 h2 {
@@ -190,6 +196,14 @@ dd {
   margin-left: $base-line-height;
 }
 
+audio, canvas, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
 
 table {
   border-collapse: separate;
@@ -234,7 +248,8 @@ button[disabled], input[disabled] {
 
 fieldset {
   border: 1px solid #C0C0C0;
-  margin: ms(0);
+  @include leader(0.5);
+  @include trailer(0.5);
   padding: $base-line-height;
 }
 
