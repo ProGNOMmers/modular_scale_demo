@@ -292,67 +292,73 @@ dd {
 }
 
 /* line 145, ../sass/_normalization.scss */
+figcaption {
+  margin-top: 0.39308em;
+  margin-bottom: 0.39308em;
+}
+
+/* line 149, ../sass/_normalization.scss */
 audio, canvas, video {
   display: inline-block;
 }
 
-/* line 149, ../sass/_normalization.scss */
+/* line 153, ../sass/_normalization.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
 }
 
-/* line 154, ../sass/_normalization.scss */
+/* line 158, ../sass/_normalization.scss */
 table {
   border-collapse: separate;
   border-spacing: 13px;
 }
 
-/* line 159, ../sass/_normalization.scss */
+/* line 163, ../sass/_normalization.scss */
 caption, th {
   text-align: center;
   font-weight: bold;
 }
 
-/* line 164, ../sass/_normalization.scss */
+/* line 168, ../sass/_normalization.scss */
 label {
   cursor: pointer;
 }
 
-/* line 168, ../sass/_normalization.scss */
+/* line 172, ../sass/_normalization.scss */
 button, input {
   line-height: normal;
 }
 
-/* line 172, ../sass/_normalization.scss */
+/* line 176, ../sass/_normalization.scss */
 button, input, select, textarea {
   font-family: inherit;
   font-size: 100%;
   margin: 0;
 }
 
-/* line 178, ../sass/_normalization.scss */
+/* line 182, ../sass/_normalization.scss */
 input[type="checkbox"], input[type="radio"] {
   padding: 0;
 }
 
-/* line 182, ../sass/_normalization.scss */
+/* line 186, ../sass/_normalization.scss */
 textarea {
   overflow: auto;
   vertical-align: top;
 }
 
-/* line 187, ../sass/_normalization.scss */
+/* line 191, ../sass/_normalization.scss */
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   cursor: pointer;
 }
 
-/* line 191, ../sass/_normalization.scss */
+/* line 195, ../sass/_normalization.scss */
 button[disabled], input[disabled] {
   cursor: default;
 }
 
-/* line 195, ../sass/_normalization.scss */
+/* line 199, ../sass/_normalization.scss */
 fieldset {
   border: 1px solid #C0C0C0;
   margin-top: 0.63601em;
@@ -360,7 +366,7 @@ fieldset {
   padding: 20px;
 }
 
-/* line 201, ../sass/_normalization.scss */
+/* line 205, ../sass/_normalization.scss */
 legend {
   border: 0 none;
   padding: 0 16px;
